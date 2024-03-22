@@ -32,3 +32,24 @@ PRIMEROS NAVEGADORES COMPATIBLES CON CSS
 IE3 (INTERNET EXPLORER)
 NETSCAPE
 OPERA
+
+LIMITACIONES DE CSS Y EL PROBLEMA DE LOS ELEMENTOS FLOTANTES
+Los primeros diseños de CSS eran una mezcla entre elementos flotantes y posicionados
+
+- Haciendo que se tengan limitaciones de control
+- Provocando que la información no se vea uniforme
+
+- Existía una frustración por la falta de columnas de altura completa
+    - Para solucionarlo se creó una técnica de COLUMNAS FALSAS
+- Se empieza hablar de Diseño Responsivo
+    - Ethan Marcotte ⇒ Tecnica de diseño responsivo
+
+- Se empieza a trabajar con elementos flotantes
+    - El problema está que solo funciona cuando se calcula con precisión el ancho y si el contenido tiene la misma altura
+    - La solución fue que se comenzó a trabajar con columnas a través de contenedores para cada una y no con elementos independientes
+    - Tambien se comienza a usar display: table que también se pueden utilizar para elementos que no son elementos de tablas
+
+- Existen una gran cantidad de técnicas que son simplemente trucos
+    - Por ello CSS se ha visto difícil y frágil porque no había herramientas de diseño
+
+**RESUMEN:** En el principio usar CSS implicaba usar trucos, comenzando desde las columnas, columnas de tamaño completo, el diseño responsivo, etc. Era de esta manera debido a que no se tenían muchas herramientas
