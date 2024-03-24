@@ -53,3 +53,38 @@ Los primeros diseños de CSS eran una mezcla entre elementos flotantes y posicio
     - Por ello CSS se ha visto difícil y frágil porque no había herramientas de diseño
 
 **RESUMEN:** En el principio usar CSS implicaba usar trucos, comenzando desde las columnas, columnas de tamaño completo, el diseño responsivo, etc. Era de esta manera debido a que no se tenían muchas herramientas
+
+HERRAMIENTAS QUE NOS HAN FACILITADO EL CAMINO
+Algunas de las herramientas principales son:
+
+**Arquitecturas**
+
+Es la estandarización de como nombramos a nuestras clases en CSS y elegir que método de arquitectura usaremos.
+
+**Pre y Post Procesadores**
+
+Son bastante importantes los preprocesadores por que nos permite trabajar mas rápido al momento de crear código y los postprocesadores nos permite agregar pequeños prefijos independientemente el navegador en el que estemos trabajando. Se deben tener en cuenta que prefijos no son siempre necesarios.
+
+**Diseño de componentes (como Atomic Design)**
+
+Es unas tecnica que utilizamos para el desarrollo de vistas en general.
+
+**Frameworks**
+
+Los frameworks de CSS ha permitido que la mayoría de las webs tengan un similitud en cuanto apariencia, pero esto es compensado por la velocidad y facilidad de su uso, a tal punto que una persona con pocos conocimientos de CSS logre crear vistas fantásticas.
+
+Se caracteriza por tener unos lineamientos que lo hace poco personalizable. Es importante cuestionarnos si necesitamos o no un framework.
+
+**Performance**
+
+Es tener es ser consientes del rendimiento de nuestra web.
+
+**Accesibilidad**
+
+Es adoptar nuestra web para aquellas personas son alguna limitación física.
+
+**Evergreen Browsers**
+
+Nos habla de la compatibilidad de nuestro código con los navegadores.
+
+Debemos aumentar nuestra compresión del por que suceden las cosas y saber que necesitamos para desarrollar.
