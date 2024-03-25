@@ -72,7 +72,6 @@ Es unas tecnica que utilizamos para el desarrollo de vistas en general.
 **Frameworks**
 
 Los frameworks de CSS ha permitido que la mayoría de las webs tengan un similitud en cuanto apariencia, pero esto es compensado por la velocidad y facilidad de su uso, a tal punto que una persona con pocos conocimientos de CSS logre crear vistas fantásticas.
-
 Se caracteriza por tener unos lineamientos que lo hace poco personalizable. Es importante cuestionarnos si necesitamos o no un framework.
 
 **Performance**
@@ -86,5 +85,21 @@ Es adoptar nuestra web para aquellas personas son alguna limitación física.
 **Evergreen Browsers**
 
 Nos habla de la compatibilidad de nuestro código con los navegadores.
-
 Debemos aumentar nuestra compresión del por que suceden las cosas y saber que necesitamos para desarrollar.
+
+¿CSS GRID ES UNA IDEA NUEVA? LA EVOLUCIÓN DE LA ESPECIFICACIÓN
+
+Css Grid ya estaba en la mente de los desarrolladores desde hace mucho tiempo. 
+
+- Cuando comenzaron en CSS pensaron tomar un diseño similar a las revistas
+    - Las imágenes, textos, pie de páginas tenían ciertos lugares
+    - Todo el documento tenía un sentido
+- Se tenía la idea de un sistema de layout
+- Microsoft necesitaba urgentemente una herramienta de diseño robusto y flexible para la web si la web iba a ser una opción para el desarrollo de aplicaciones nativas en windows
+- Hubo 3 ideas fundamentales
+    1. Idea de Microsoft
+    2. Diseño avanzado de Bos
+    3. Adición de líneas de cuadricula de Linss
+- Antes de que una recomendación candidata (Borrador Final) pueda convertirse en una recomendación propuesta, la W3C necesita ver al menos dos implementaciones independiendientes e interoperables
+- Hubo un cambio fundamental con CSS Grid
+    - **[Jen Simmons](https://labs.jensimmons.com/)** ⇒ Colocó muchas demostraciones que creó para CSS Grid en la web
