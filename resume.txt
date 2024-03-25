@@ -103,3 +103,23 @@ Css Grid ya estaba en la mente de los desarrolladores desde hace mucho tiempo.
 - Antes de que una recomendación candidata (Borrador Final) pueda convertirse en una recomendación propuesta, la W3C necesita ver al menos dos implementaciones independiendientes e interoperables
 - Hubo un cambio fundamental con CSS Grid
     - **[Jen Simmons](https://labs.jensimmons.com/)** ⇒ Colocó muchas demostraciones que creó para CSS Grid en la web
+
+¿QUÉ SIGNIFICA GRID PARA CSS?
+
+CSS Grid requiere una forma completamente nueva de pensar sobre el diseño en CSS. Algunos autores han dejado diferentes conceptos:
+
+**BERT BOS**
+
+"No se trata simplemente de agregar propiedades a cada elemento individual. Ahora puedes tener un modelo diferente en el que comienzas con tu diseño primero y luego incorporas los diferentes elementos en ese diseño"
+
+**ATKINS**
+
+"Es la herramienta de diseño más poderosa que hemos inventado hasta ahora para CSS"
+
+**ETEMAD**
+
+"CSS Grid toma todas esas cosas complicadas que tuvimos que hacer para lograr diseños básicos y lo hace completamente innecesario"
+
+**WHITWORTH**
+
+"Estoy entusiasmado con el futuro del diseño CSS", "CSS Grid no es el final; en realidad es solo el comienzo"
