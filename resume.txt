@@ -236,3 +236,11 @@ PADDING padding-block-start | paddding-inline-start | padding-inline-end | paddi
 BORDER(-size-style-color): border-block-start | border-inline-start | border-inline-end | border-block-end.
 
 POSITIONS: inset-block-start | inset-inline-start | inset-inline-end | inset-block-end
+
+
+Las propiedades que tenemos que tener en cuenta para el alineamiento son estas 3:
+
+TÉCNICAS DE ALINEAMIENTO CON FLEXBOX
+Display: Flex
+Justify-content: Es para los elementos en su alineación horizontal
+align-items: Es para alinear los elementos de forma vertical.
