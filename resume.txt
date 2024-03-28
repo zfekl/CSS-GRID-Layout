@@ -193,3 +193,25 @@ margin-top
 padding-bottom
 border-right
 left
+
+MODOS DE ESCRITURA Y EJES DE ALINEAMIENTO + RETO
+
+La propiedad writing-mode define si los renglones de texto se disponen horizontal o verticalmente y la dirección en que avanzan los bloques.
+horizontal-tb El contenido fluye horizontalmente de izquierda a derecha y verticalmente de arriba hacia abajo. El próximo renglón horizontal se posiciona debajo del renglón anterior.
+
+vertical-rl El contenido fluye verticalmente de arriba hacia abajo y horizontalmente de derecha a izquierda. El próximo renglón vertical se posiciona a la izquierda del renglón anterior.
+
+vertical-lr El contenido fluye verticalmente de arriba hacia abajo y horizontalmente de izquierda a derecha. El próximo renglón vertical se posiciona a la derecha del renglón anterior.
+
+sideways-rl El contenido fluye verticalmente de arriba hacia abajo y todos los glifos, incluidos aquellos de los sistemas de escritura verticales, se colocan de lado hacia la derecha.
+
+sideways-lr El contenido fluye verticalmente de arriba hacia abajo y todos los glifos, incluidos aquellos de los sistemas de escritura verticales, se colocan de lado hacia la izquierda.
+
+Cosas a tener en cuenta a la hora de usar writing mode:
+El modo de escritura. -La dirección. -La orientación del texto.
+Para esto hay que ver los elementos bloque y elementos en linea.
+
+display-block: (horizontal)
+
+Ocupan todo el espacio de su elemento padre (contenedor). -Fuerzan un salto de línea (ocupan todo el ancho disponible). -Respetan el width, el height, el margin-top y el margin-bottom indicados por el usuario. -Algunos son: div, p, h1, h2, h3, h4, h5, h6, hr, ol, ul, table, li.
+display-inline: (vertical) -Son apilables. -No tienen ni margin-top ni margin-bottom (por mucho que se lo indiques en el CSS). -Si tienen margin-left y margin-right. No respetan ni width ni height. -Estas medidas dependerán del tamaño en píxels de su contenido. -Algunos son: a, span, label, strong, br, input, textarea, abbr,
