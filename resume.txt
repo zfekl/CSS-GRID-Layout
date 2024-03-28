@@ -215,3 +215,24 @@ display-block: (horizontal)
 
 Ocupan todo el espacio de su elemento padre (contenedor). -Fuerzan un salto de línea (ocupan todo el ancho disponible). -Respetan el width, el height, el margin-top y el margin-bottom indicados por el usuario. -Algunos son: div, p, h1, h2, h3, h4, h5, h6, hr, ol, ul, table, li.
 display-inline: (vertical) -Son apilables. -No tienen ni margin-top ni margin-bottom (por mucho que se lo indiques en el CSS). -Si tienen margin-left y margin-right. No respetan ni width ni height. -Estas medidas dependerán del tamaño en píxels de su contenido. -Algunos son: a, span, label, strong, br, input, textarea, abbr,
+
+PROPIEDADES FÍSICAS Y LÓGICAS EN CSS + QUIZ
+
+MODELOS DE CAJA (Físicas - Lógicas)
+++Propiedades físicas++
+MARGIN: margin-top | Margin-left | Margin-right | Margin-bottom
+
+PADDING: padding-top | paddding-left | padding-right | padding-bottom
+
+BORDER (-size-style-color): border-top | border-left | border-right | border-bottom
+
+POSITIONS top | left | right | bottom.
+
+++- Propiedades Lógicas++
+MARGIN: Margin-block-start | Margin-inline-start | Margin-inline-end | Margin-block-end
+
+PADDING padding-block-start | paddding-inline-start | padding-inline-end | padding-block-end
+
+BORDER(-size-style-color): border-block-start | border-inline-start | border-inline-end | border-block-end.
+
+POSITIONS: inset-block-start | inset-inline-start | inset-inline-end | inset-block-end
