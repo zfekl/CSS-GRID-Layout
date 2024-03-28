@@ -146,3 +146,28 @@ Nos permite alinear textos de forma horizontal
 
 Nos permite alinear textos de forma vertical
 ++Line Height++
+
+TÉCNICAS DE ALINEAMIENTO ANTES DE CSS GRID: TABLE-CELL Y POSITIONS
+Table-Cell
+Positions
+Es importante conocer las propiedades que tienen estas técnicas para poder posicionar bien.
+
+En la técnica de Table-Cell tenemos las propiedades de
+
+display: table-cell — Hace que cualquier elemento se comporte como una tabla.
+text-align — Estos últimos dos, los vimos en la clase anterior.
+vertical-align
+La ultima tecnica a ver es la de Positions, que tiene las siguientes propiedades:
+
+position: relative
+position: absolute
+top
+right
+bottom
+left
+transform: translate ()
+Hay una tabla que coincide con todos los valores de positions, debido a eso podemos ver sus características dependiendo de su valor. Esto tiene una sintaxis donde va primero
+
+Top: Longitud, Porcentaje, Valor por Defecto, Hereda Del Padre
+Transform: none, transform-functions, ,initial, inherit
+Transform: translate(x.y)
