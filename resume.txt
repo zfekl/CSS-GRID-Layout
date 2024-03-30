@@ -249,3 +249,18 @@ DIBUJEMOS CON CSS + RETO
 
 Una de las mejores páginas para entender css es [a single div](https://a.singlediv.com/) que tiene muchos dibujos hechos con un solo div.
 Una herramienta muy buena para usar los porcentajes del border radius es [Fancy-Border-Radius](https://9elements.github.io/fancy-border-radius/#48.49.50.0--.), que tiene su versión básica de 4 puntos y su versión [Full Control](https://9elements.github.io/fancy-border-radius/full-control.html) que tiene 8 puntos.
+
+GRID Y LAS RELACIONES PADRE E HIJOS INMEDIATOS
+Ideas/conceptos claves
+CSS Grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML.
+
+Grid nos permite crear rejillas que tenga filas y columnas
+En este momento se tiene una mayor complejidad en el diseño web
+
+Siempre se tendrá un Contenedor (padre)
+Los items (elementos hijos) serán los que estarán dentro de este contenedor
+Los hijos también pueden ser padres
+Todos los padres tienen que tener:
+
+display: grid;
+RESUMEN: Usar CSS Grid consiste en tener un elemento padre el cual se definirá la propiedad display grid, sus elementos hijos serán afectados por esta regla, siendo posicionados según la forma establecida la grilla.
