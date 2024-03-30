@@ -264,3 +264,23 @@ Todos los padres tienen que tener:
 
 display: grid;
 RESUMEN: Usar CSS Grid consiste en tener un elemento padre el cual se definirá la propiedad display grid, sus elementos hijos serán afectados por esta regla, siendo posicionados según la forma establecida la grilla.
+
+LINES, TRACKS, CELL, AREA, GUTTERS, GRID AXIS, GRID ROW, GRID COLUMN
+
+LINE son las líneas divisorias que componen la estructura de la cuadrícula. Pueden ser verticales (“líneas de cuadrícula de columna”) u horizontales (“líneas de cuadrícula de fila”) y residir a ambos lados de una fila o columna.
+
+TRACK es prácticamente varias celdas adyacentes o juntas en una fila o columna, como también pueden ser 3, 2 o las celdas adyacentes que se necesita.
+
+AREA El espacio total rodeado por cuatro líneas de cuadrícula. Un área de cuadrícula puede estar compuesta por cualquier número de celdas de cuadrícula. Esta propiedad también se puede utilizar para asignar un nombre a un elemento de la cuadrícula.
+
+CELL son cada cuadro de la grilla, como lo son en una tabla, como la de excel.
+
+Grid row cuando pensamos en grid row vamos a pensar de forma vertical y empezamos a contar desde la linea 1 a la linea 6 (arriba a abajo)
+
+Grid column cuando pensamos en grid column vamos a pensar de forma horizontal y empezamos a contar de la línea 1 a la línea 6 (izquierda a derecha)
+
+axis es la alineación del contenido dentro o items o celdas de nuestra grid
+
+-row axis este eje es de forma horizontal o también lo podemos conocer como inline axis
+
+-column axis este eje es de forma vertical también lo conoces como block-axis
