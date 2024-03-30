@@ -244,3 +244,8 @@ TÉCNICAS DE ALINEAMIENTO CON FLEXBOX
 Display: Flex
 Justify-content: Es para los elementos en su alineación horizontal
 align-items: Es para alinear los elementos de forma vertical.
+
+DIBUJEMOS CON CSS + RETO
+
+Una de las mejores páginas para entender css es [a single div](https://a.singlediv.com/) que tiene muchos dibujos hechos con un solo div.
+Una herramienta muy buena para usar los porcentajes del border radius es [Fancy-Border-Radius](https://9elements.github.io/fancy-border-radius/#48.49.50.0--.), que tiene su versión básica de 4 puntos y su versión [Full Control](https://9elements.github.io/fancy-border-radius/full-control.html) que tiene 8 puntos.
