@@ -284,3 +284,28 @@ axis es la alineación del contenido dentro o items o celdas de nuestra grid
 -row axis este eje es de forma horizontal o también lo podemos conocer como inline axis
 
 -column axis este eje es de forma vertical también lo conoces como block-axis
+
+¡INICIEMOS NUESTRO PROYECTO! FASE DE CREATIVIDAD E IDENTIFICACIÓN DE ELEMENTOS
+Inspiracion:
+
+Pinterest
+Dribabble
+Asymetrical Grid design
+
+Hacer una lista de todo lo que se necesita
+
+    Tematica
+        Lluvia de ideas
+    Figuras principales
+        Lluvia de ideas: Circulos, cuadros, overlap
+    Imagenes
+        De uso libre
+            Pixabay
+            Pexels
+            Freepick
+    Tipografia
+        Google Fonts
+    Paleta de colores
+        ColorHunt
+        Picker
+Hacer un bosquejo y plasmar las ideas
