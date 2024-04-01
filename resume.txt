@@ -335,3 +335,40 @@ Apuntes
     Si pensamos en display: inline-flex; su relación con otros elementos no sera de bloque sino de línea
     Siempre volvemos al flujo normal del documento
 RESUMEN: La diferencia entre grid e inline-grid es el comportamiento externo que tienen con otros elementos, usando grid sera de tipo bloque y usando inline-grid sera de tipo inline
+
+CREANDO FILAS, COLUMNAS Y ESPACIADO + RETO
+
+Nuestro contenedor deberia ser display: grid o Inline-grid
+Para poder tener columnas o filas, deberiamos colocarle estas propiedades a nuestro elemento padre
+Para poder crear columnas debemos usar grid-template-columns
+Para crear filas debemos usar grid-template-rows
+Si deseamos acortar y tener filas o columnas del mismo tamaño podemos usar:
+        grid-template-columns/rows: repeat(5, 10px);
+Además, que grid cuenta con un shorthand
+        grid-template: repeat(3, 20px) / repeat(3, 20px);
+    el primer repeat seria de las filas y el siguiente de las columnas
+
+Si deseamos tener un espacio interno podemos usar la propiedad gap
+Existen varias maneras de implementarlo
+
+Antigua
+    grid-column-gap: 5px;
+	grid-row-gap: 5px;
+Antigua correcta
+    grid-gap: 5px 5px;
+Standar
+    column-gap: 5px;
+	row-gap: 5px;
+Standar corto
+    gap: 5px 5px;
+Tenemos el areas, para poder ubicar elementos de una manera más sencilla
+.container {
+	display: grid;
+	grid-template: repeat(5, 20px) / repeat(5, 20px);
+	grid-template-areas: 
+		"header header header header header"
+		"header header header header header"
+		"main main . sidebar sidebar"
+		"main main . sidebar sidebar"
+		"footer footer footer footer sidebar"
+}
