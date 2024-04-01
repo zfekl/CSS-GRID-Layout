@@ -372,3 +372,40 @@ Tenemos el areas, para poder ubicar elementos de una manera más sencilla
 		"main main . sidebar sidebar"
 		"footer footer footer footer sidebar"
 }
+
+ALINEAMIENTO EN EL ELEMENTO CONTENEDOR + QUIZ
+
+Alineamiento ⇒ en donde quiero que estén los elementos de mi grid
+Podemos alinear todos los contenedores a una dirección
+Tenemos dos Grupos para ordenar por parte del contenedor
+    Items
+        justify-items
+        align-items
+        place-items
+    Content
+        justify-content
+        align-content
+        place-content
+Propiedades en común:
+    Justify ⇒ Alineación por dentro de la grid
+        Inline axis (row axis)
+        De izquierda a derecha
+            start
+            end
+    Align ⇒ Alinear la Grid en su contenedor
+        block axis (column axis)
+        De arriba hacia abajo
+            start
+            end
+justify-items
+    justify-items: start | end | center | stretch;
+align-items
+    align-items: start | end | center | stretch;
+place-items: Es el shorthand para los dos anteriores
+    place-items: <alig-items> / <justify-items>;
+justify-content
+    justify-content: start | end | center | stretch;
+	justify-content: space-around | space-between | space-evenly;
+Align-content
+	align-content: start | end | center | stretch;
+	align-content: space-around | space-between | space-evenly;
