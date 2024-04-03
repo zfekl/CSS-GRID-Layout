@@ -429,3 +429,13 @@ También podemos cambiar el orden visual de los elementos hijos
 		grid-auto-flow: row | column | row dense | column dense;
 }
 RESUMEN: Debido a que existen casos que nunca sabremos cuantos elementos exactamente tendrá nuestra grilla entonces podemos generarla automáticamente con grillas implícitas.
+
+FUNCIONES: REPEAT(), MINMAX() Y FIT-CONTENT()
+
+La función CSS repeat() representa un fragmento repetido de la lista de la pista, permitiendo un gran número de columnas o renglones que exhiben un patrón recurrente para ser escrito de una forma más compacta.
+En función Css minmax() el min representa el tamaño mínimo que va a tener cada uno de los elementos de la grid y el max nos indica el valor máximo de los elementos de la grid. Esto nos sirve para que el contenido se vea bien en determinados tamaños.
+Con la función de auto-fit() ADAPTA las columnas DISPONIBLES ACTUALMENTE en el espacio expandiéndolas para que ocupen cualquier espacio disponible. El navegador hace eso después de LLENAR ese espacio adicional con columnas adicionales (como con el autocompletar) y luego colapsar las vacías.
+Con la función de auto-fill() LLENA la fila con tantas columnas como pueda caber. Por lo tanto, crea columnas implícitas cada vez que cabe una nueva columna, porque está tratando de LLENAR la fila con tantas columnas como sea posible. Las columnas recién agregadas pueden estar vacías, pero seguirán ocupando un espacio designado en la fila.
+
+/************ Estas funciones son perfectas para el responsive design.*********/
+La función fit-content() organiza un contenido en especifico el cual lo reserva y el resto seria auto.
