@@ -444,3 +444,18 @@ La función fit-content() organiza un contenido en especifico el cual lo reserva
 Organizamos en filas o columnas, definimos colores, fuentes y fondos
 el color gradiente lo podemos obtener desde la web ColorSpace.
 Colocaremos un height de 100vh para obtener el 100% de la vista de la pantalla
+
+ALINEAMIENTO EN LOS ELEMENTOS HIJOS + QUIZ
+
+Tendremos tres propiedades fundamentales: `**justify-self / align-self / place-self**`
+
+### JUSTIFY-SELF
+
+Recordemos que con **Justify-self** alineamos en Inline Axis
+
+Algo interesante es el uso de **Pseudo clases**
+
+Tenemos dos 
+
+1. `.item: nth-child (1)`: Decimos que el primer hijo de ese contenedor sea justify-self:start;
+2. `.item: not(:nth-child (1))` Todos menos el primer hijo, tenga un color turquesa
