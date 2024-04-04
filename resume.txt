@@ -439,3 +439,8 @@ Con la función de auto-fill() LLENA la fila con tantas columnas como pueda cabe
 
 /************ Estas funciones son perfectas para el responsive design.*********/
 La función fit-content() organiza un contenido en especifico el cual lo reserva y el resto seria auto.
+
+¡MANOS AL CÓDIGO! FASE DE CONSTRUCCIÓN DE LA GRID PRINCIPAL DE NUESTRO PROYECTO
+Organizamos en filas o columnas, definimos colores, fuentes y fondos
+el color gradiente lo podemos obtener desde la web ColorSpace.
+Colocaremos un height de 100vh para obtener el 100% de la vista de la pantalla
